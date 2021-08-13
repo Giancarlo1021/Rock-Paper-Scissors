@@ -5,5 +5,5 @@ Version 1:
 [x] Make buttons console.log rock, paper, or scissors when pressed.
 
 Version 2: 
-[] Move buttons to the middle. 
-[] Dress up buttons a bit and begin to work on design.
+[x] Move buttons to the middle. 
+[x] Designed buttons 
