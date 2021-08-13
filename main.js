@@ -1,20 +1,18 @@
-function playRound(playerSelection, computerSelection) {
-   return console.log(playerSelection, computerSelection)
-}
+const rockBtn = document.querySelector("#btn-rock");
+const paperBtn = document.querySelector("#btn-paper");
+const scissorsBtn = document.querySelector("#btn-scissors");
 
-const playerSelection = window.prompt('Choose rock, paper, or scissors').toLowerCase();
-let result = false;
- while (result === false){
-   if (playerSelection == 'rock' || 'paper' || 'scissors'){
-      result = true;
-   } else {
-      const playerSelection = window.prompt('Please Choose rock, paper, or scissors')
-      playerSelection.toLowerCase
-   }
- }
+rockBtn.addEventListener ('click', () => {
+   console.log('Rock!')
+})
 
- const computerSelection = computerPlay();
- console.log(playRound(playerSelection, computerSelection));
+paperBtn.addEventListener ('click', () => {
+   console.log('Paper!')
+})
+
+scissorsBtn.addEventListener ('click', () => {
+   console.log('Scissors!')
+})
 
  function computerPlay(){
    let value = Math.floor(Math.random() * 3);
