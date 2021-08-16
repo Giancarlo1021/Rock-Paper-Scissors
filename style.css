@@ -4,22 +4,96 @@ html{
 }
 
 body{
-	width: 100%;
-	min-height: 100%;
-	background-color: #8b26ff;
+    width: 100%;
+    min-height: 100%;
+    background-color: #8b26ff;
 }
 
+/* Container for text, also has the decoration implemented in it. */
+.text_container {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  text-transform: uppercase;
+  font-family: verdana;
+  font-weight: 700;
+  font: bold;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #8620d9,
+  1px 2px 1px #8620d9,
+  1px 3px 1px #8620d9,
+  1px 4px 1px #8620d9,
+  1px 5px 1px #8620d9,
+  1px 6px 1px #8620d9,
+  1px 7px 1px #8620d9,
+  1px 8px 1px #8620d9,
+  1px 9px 1px #8620d9,
+  1px 10px 1px #8620d9,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
+}
+
+/* Aligns text to make a scoreboard with numbers and players/computer */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Div named banner, aligns text for winner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 95%;
+}
+
+/* Decorates the winner banner */
+.winner {
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  text-transform: uppercase;
+  font-family: verdana;
+  font-weight: 700;
+  font: bold;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #8620d9,
+  1px 2px 1px #8620d9,
+  1px 3px 1px #8620d9,
+  1px 4px 1px #8620d9,
+  1px 5px 1px #8620d9,
+  1px 6px 1px #8620d9,
+  1px 7px 1px #8620d9,
+  1px 8px 1px #8620d9,
+  1px 9px 1px #8620d9,
+  1px 10px 1px #8620d9,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);
+} 
+
+/* Contains buttons and aligns them */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Button decoration */
 button{
     border-radius: 25px;
     outline: 0; 
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 600;
     background: #fff;
     border: #8620d9;
