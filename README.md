@@ -7,3 +7,8 @@ Version 1:
 Version 2: 
 [x] Move buttons to the middle. 
 [x] Designed buttons 
+
+Version 3:
+[x] made buttons functional
+[x] edited logic to matric to get rid of congested amount of conditional statements
+[x] created banner to show results
